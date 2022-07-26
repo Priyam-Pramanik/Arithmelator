@@ -1,0 +1,38 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    scroll-behavior: smooth;
+    text-align: center;
+    
+}
+h1{
+    font-weight: bolder;
+    font-size:70px;
+    text-shadow: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+marquee{
+    font-size: 26px;
+    border-style: ridge;
+    background-color: gray;
+    
+}
+.ibox{
+    margin:20px;
+    padding:10px;
+    border-radius:3px;
+    font-size: 35px;
+  }
+  button{
+     padding:10px;
+    font-size:35px;
+    background-color:#63a60c; ;
+  }
+  button:hover{
+    font-size: 20px;
+    transition: 0.5s;
+    background-color: yellow;
+  }
+  label{
+    font-size: 30px;
+  }
